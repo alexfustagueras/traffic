@@ -122,6 +122,7 @@ class PredictionRegistry:
 try:
     from .bn import BNPredict
     from .cfm import CFMPredict
+    from .cfm_intent import CFMIntentPredict
     from .flightplan import FlightPlanPredict
     from .linearextrapolation import LinearExtrapolation
 except ImportError as e:
